@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "b": "browserify --node --im -s 'jsdom' --no-builtins index.js > parse5.browserify.js && terser parse5.browserify.js -o parse5.browserify.min.js"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "parse5": "^6.0.1",
+    "terser": "^5.7.1"
+  }
+}
